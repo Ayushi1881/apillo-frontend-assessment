@@ -89,7 +89,7 @@ export default function Page() {
             </tr>
           </thead>
           {/* ... Table body */}
-          <tbody className='p-2 m-2 border-[1px] border-black'>
+          <tbody className='p-2 m-2 border-[1px] border-black text-black>
             {data && data.map((item, index) => (
               <TableRow
                 key={index}
