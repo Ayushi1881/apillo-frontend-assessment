@@ -74,8 +74,8 @@ export default function Page() {
  
 
   return (
-    <div className="flex min-h-screen flex-col items-center overflow-auto w-screen bg-slate-400">
-      <h1 className="text-xl m-2 font-serif font-bold text-slate-700">Data Table</h1>
+    <div className="flex min-h-screen flex-col items-center overflow-auto w-screen bg-slate-400 text-black">
+      <h1 className="text-xl m-2 font-serif font-bold text-slate-900 underline">Data Table</h1>
       <div className='overflow-auto rounded-lg shadow-lg w-full'>
         <table className='w-full m-5'>
           {/* ... Table header */}
@@ -89,7 +89,7 @@ export default function Page() {
             </tr>
           </thead>
           {/* ... Table body */}
-          <tbody className='p-2 m-2 border-[1px] border-black'>
+          <tbody className='p-2 m-2 border-[1px] border-black text-black'>
             {data && data.map((item, index) => (
               <TableRow
                 key={index}
