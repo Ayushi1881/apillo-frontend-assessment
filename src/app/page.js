@@ -74,7 +74,7 @@ export default function Page() {
  
 
   return (
-    <div className="flex min-h-screen flex-col items-center overflow-auto w-screen bg-slate-400">
+    <div className="flex min-h-screen flex-col items-center text-black overflow-auto w-screen bg-slate-400">
       <h1 className="text-xl m-2 font-serif font-bold text-slate-700">Data Table</h1>
       <div className='overflow-auto rounded-lg shadow-lg w-full'>
         <table className='w-full m-5'>
